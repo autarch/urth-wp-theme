@@ -585,17 +585,6 @@ function the_bootstrap_comment_form_defaults( $defaults ) {
 }
 add_filter( 'comment_form_defaults', 'the_bootstrap_comment_form_defaults' );
 
-function urth_comments_before() {
-    echo "<div class='row'><div class='span12'>";
-}
-
-function urth_comments_after() {
-    echo "</div></div>";
-}
-
-add_action( 'comments_before', 'urth_comments_before' );
-add_action( 'comments_after', 'urth_comments_after' );
-
 if ( ! function_exists( 'the_bootstrap_comment' ) ) :
 /**
  * Template for comments and pingbacks.
@@ -683,7 +672,7 @@ endif; // ends check for the_bootstrap_comment()
  * @return	string
  */
 function the_bootstrap_comment_form_top() {
-	echo '<div class="form-horizontal">';
+	echo '<div class="form">';
 }
 add_action( 'comment_form_top', 'the_bootstrap_comment_form_top' );
 
@@ -700,7 +689,7 @@ add_action( 'comment_form_top', 'the_bootstrap_comment_form_top' );
  * @return	string
  */
 function the_bootstrap_comment_form() {
-	echo '</div></div>';
+	echo '</div>';
 }
 add_action( 'comment_form', 'the_bootstrap_comment_form' );
 
