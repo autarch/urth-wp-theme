@@ -24,8 +24,12 @@ article.post {
     margin-bottom: 30px;
 }
 
-.form-horizontal .controls {
-    margin-left: 0;
+.entry-content {
+    font-size: 18px;
+}
+
+.comment-content {
+    font-size: 16px;
 }
 
 .comment-form-comment {
