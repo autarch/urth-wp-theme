@@ -1,0 +1,33 @@
+/** urth.css
+ * 
+ */
+
+@import url("http://fonts.googleapis.com/css?family=Stoke|Galdeano");
+
+body {
+    font-family: Galdeano;
+}
+
+#site-title, #site-description, #entry-title {
+    font-family: Stoke;
+}
+
+#site-description {
+    font-size: 20px;
+}
+
+header.page-header {
+    margin-bottom: 10px;
+}
+
+article.post {
+    margin-bottom: 30px;
+}
+
+.form-horizontal .controls {
+    margin-left: 0;
+}
+
+.comment-form-comment {
+    margin-top: 10px;
+}
