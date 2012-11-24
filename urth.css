@@ -50,10 +50,13 @@ article.post {
     display: none;
 }
 
+header.page-header {
+    margin-top: 0;
+}
+
 aside.widget_search {
     background-color: white;
     border: 0;
     box-shadow: none;
     -webkit-box-shadow: none;
-    margin-top: 16px;
 }
