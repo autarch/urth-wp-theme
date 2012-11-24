@@ -104,7 +104,7 @@ function the_bootstrap_posted_on() {
 	?>
 		<span class="sep"> | </span>
 		<span class="comments-link">
-             <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'the-bootstrap' ) . '</span>', __( '<strong>1</strong> Reply', 'the-bootstrap' ), __( '<strong>%</strong> Replies', 'the-bootstrap' ), "", '<strong>No</strong> replies' ); ?>
+             <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'the-bootstrap' ) . '</span>', __( '<strong>1</strong> Reply', 'the-bootstrap' ), __( '<strong>%</strong> Replies', 'the-bootstrap' ), "", 'No replies' ); ?>
 		</span>
     <?php
 	edit_post_link( __( 'Edit', 'the-bootstrap' ), '<span class="sep">&nbsp;</span><span class="edit-link label">', '</span>' );
