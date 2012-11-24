@@ -35,3 +35,7 @@ article.post {
 .comment-form-comment {
     margin-top: 10px;
 }
+
+.widget-title {
+    font-size: 24px;
+}
