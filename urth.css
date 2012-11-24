@@ -39,3 +39,15 @@ article.post {
 .widget-title {
     font-size: 24px;
 }
+
+.navbar {
+    display: none;
+}
+
+aside.widget_search {
+    background-color: white;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    margin-top: 16px;
+}
