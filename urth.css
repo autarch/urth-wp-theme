@@ -8,6 +8,12 @@ body {
     font-family: Galdeano;
 }
 
+code {
+    color: #614;
+    font-size: 85%;
+    padding: 1px;
+}
+
 #site-title, #site-description, #entry-title {
     font-family: Stoke;
 }
