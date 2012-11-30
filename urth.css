@@ -2,7 +2,22 @@
  * 
  */
 
+/* 
 @import url("http://fonts.googleapis.com/css?family=Stoke|Galdeano");
+*/
+
+@font-face {
+  font-family: 'Galdeano';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Galdeano Regular'), local('Galdeano-Regular'), url(http://themes.googleusercontent.com/static/fonts/galdeano/v3/XWkZhyfrNgo9X-giTt_ZffesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Stoke';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Stoke Regular'), local('Stoke-Regular'), url(http://themes.googleusercontent.com/static/fonts/stoke/v3/mcAVGFXhrm6QD4jAEx84ng.woff) format('woff');
+}
 
 body {
     font-family: Galdeano;
