@@ -10,14 +10,14 @@
 				<footer id="colophon" role="contentinfo" class="span12">
 					<?php tha_footer_top(); ?>
 					<div id="page-footer" class="well clearfix">
-                        <?php echo bccl_get_full_html_license() ?><br />
-                        Copyright &copy; <?php echo date('Y') ?> David Rolsky
 						<div id="site-generator"<?php echo has_nav_menu('footer-menu') ? ' class="footer-nav-menu"' : ''; ?>>
 							<a	href="<?php echo esc_url( __( 'http://wordpress.org/', 'the-bootstrap' ) ); ?>"
 								title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'the-bootstrap' ); ?>"
 								target="_blank"
 								rel="generator"><?php printf( _x( 'Somewhat shamefully powered by %s', 'WordPress', 'the-bootstrap' ), 'WordPress' ); ?></a>
 						</div>
+                        <?php echo bccl_get_full_html_license() ?><br />
+                        Copyright &copy; <?php echo date('Y') ?> David Rolsky
 					</div><!-- #page-footer .well .clearfix -->
 					<?php tha_footer_bottom(); ?>
 				</footer><!-- #colophon -->
