@@ -10,16 +10,8 @@
 				<footer id="colophon" role="contentinfo" class="span12">
 					<?php tha_footer_top(); ?>
 					<div id="page-footer" class="well clearfix">
-						<?php wp_nav_menu( array(
-							'container'			=>	'nav',
-							'container_class'	=>	'subnav',
-							'theme_location'	=>	'footer-menu',
-							'menu_class'		=>	'credits nav nav-pills pull-left',
-							'depth'				=>	3,
-							'fallback_cb'		=>	'the_bootstrap_credits',
-							'walker'			=>	new The_Bootstrap_Nav_Walker,
-						) );
-						?>
+                        <?php echo bccl_get_full_html_license() ?><br />
+                        Copyright &copy; <?php echo date('Y') ?> David Rolsky
 						<div id="site-generator"<?php echo has_nav_menu('footer-menu') ? ' class="footer-nav-menu"' : ''; ?>>
 							<a	href="<?php echo esc_url( __( 'http://wordpress.org/', 'the-bootstrap' ) ); ?>"
 								title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'the-bootstrap' ); ?>"
