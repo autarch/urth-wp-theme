@@ -23,10 +23,8 @@ body {
     font-family: Galdeano;
 }
 
-code {
-    color: #614;
+pre.prettyprint {
     font-size: 85%;
-    padding: 1px;
 }
 
 #site-title, #site-description, #entry-title {
