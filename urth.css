@@ -23,6 +23,10 @@ body {
     font-family: Galdeano;
 }
 
+pre code {
+    font-size: 15px;
+}
+
 pre.prettyprint {
     font-size: 85%;
 }
@@ -72,4 +76,8 @@ aside.widget_search {
     border: 0;
     box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+blockquote p {
+    margin-bottom: 10px;
 }
