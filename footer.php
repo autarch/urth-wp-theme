@@ -16,8 +16,10 @@
 								target="_blank"
 								rel="generator"><?php printf( _x( 'Somewhat shamefully powered by %s', 'WordPress', 'the-bootstrap' ), 'WordPress' ); ?></a>
 						</div>
-                        <?php echo bccl_get_full_html_license() ?><br />
-                        Copyright &copy; <?php echo date('Y') ?> David Rolsky
+                        <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="http://blog.urth.org/wp-content/plugins/creative-commons-configurator-1/media/cc/by-sa/4.0/80x15.png"></a>
+                        Copyright &copy; <?php echo date('Y') ?> David Rolsky. Some rights reserved.
+                        <br>
+                        All content on this site is licensed under the<br><a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless otherwise noted.
 					</div><!-- #page-footer .well .clearfix -->
 					<?php tha_footer_bottom(); ?>
 				</footer><!-- #colophon -->
