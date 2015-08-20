@@ -23,6 +23,8 @@ function the_bootstrap_setup() {
 		$content_width = 770;
 	}
 	
+    set_post_thumbnail_size( 250, 250 );
+
 	load_theme_textdomain( 'the-bootstrap', get_template_directory() . '/lang' );
 	
 	add_theme_support( 'automatic-feed-links' );
