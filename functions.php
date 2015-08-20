@@ -576,7 +576,7 @@ add_action( 'comment_form_comments_closed', 'the_bootstrap_comments_closed' );
  */
 function the_bootstrap_comment_form_defaults( $defaults ) {
 	return wp_parse_args( array(
-		'comment_field'			=>	'<div class="comment-form-comment control-group"><div class="controls"><textarea class="span12" id="comment" name="comment" rows="8" aria-required="true"></textarea><span class="help-block">You may use Markdown or HTML in your comments. Paragraphs will be added automically. <strong>Note:</strong> There is currently a bug where comments held for moderation lose block-level formatting (like list items).</span></div></div>',
+		'comment_field'			=>	'<div class="comment-form-comment control-group"><div class="controls"><textarea class="span12" id="comment" name="comment" rows="8" aria-required="true"></textarea><span class="help-block">You may use basic HTML in your comments (links, strong, em, etc.). Paragraphs will be added automically.</div></div>',
 		'comment_notes_before'	=>	'',
 		'comment_notes_after'	=>	'',
 		'title_reply'			=>	'<legend>' . __( 'Leave a reply', 'the-bootstrap' ) . '</legend>',
