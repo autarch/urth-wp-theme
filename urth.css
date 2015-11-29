@@ -23,6 +23,12 @@ body {
     font-family: Galdeano;
 }
 
+code {
+    color: #163;
+    font-family: "Droid Sans Mono", "Bitstream Vera Sans", "Courier New", monospace;
+    font-size: 14px;
+}
+
 pre code {
     font-size: 15px;
 }
